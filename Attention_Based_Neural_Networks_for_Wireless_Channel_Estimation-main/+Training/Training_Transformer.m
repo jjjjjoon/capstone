@@ -7,7 +7,7 @@ SNR_range = 5:5:25; % 5:5:25
 Num_of_frame_each_SNR = 25000;
 Channel_type = 'Propogation'; % 'multitaps' 'Rayleigh_doppler' 'Propogation'
 
-numEpochs = 100;
+numEpochs = 10;
 learnRate = 2e-3; % 1.2e-3
 Dropperiod = [25, 29, 30, 39, 49];
 Droprate = 0.5;
